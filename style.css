@@ -92,6 +92,9 @@ img{
 .footer{
     background-color: black;
     color: white;
+    width: 1040px;
+    margin:0 auto;
+    
 }
 footer div{
     display: inline-block;
