@@ -1,0 +1,112 @@
+nav ul{
+    list-style: none;
+    margin:auto;
+    display: block;
+    
+
+}
+.navigation{
+    float: right;
+    width:600px;
+}
+#section1{
+    background-image: url("https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y29kZXJ8ZW58MHx8MHx8&w=1000&q=80");
+    background-size: cover;
+}
+#section2{
+    background-image: url("https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825__480.jpg");
+    background-size: cover;
+}
+#section3{
+    background-image: url("https://cdn.pixabay.com/photo/2016/04/04/14/12/monitor-1307227_960_720.jpg");
+    background-size:cover;
+}
+#section4{
+    background-image: url("https://cdn.pixabay.com/photo/2014/10/05/19/02/binary-code-475664_960_720.jpg");
+    background-size:cover;
+}
+#section5{
+    background-image: url("https://cdn.pixabay.com/photo/2014/09/23/08/57/ball-457334_960_720.jpg");
+    background-size:cover;
+}
+#section6{
+    background-image: url("https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507__340.jpg");
+    background-size:cover;
+}
+.wrap{
+    background-color:rgba(187, 173, 132, 0.501);
+    border-radius: 10px;
+    margin: 50px auto;
+    padding:10px;
+    width:80%;
+    
+    
+}
+
+#header{
+    height: 30px;
+    width: 100%;
+    padding: 20px;
+    background-color: aquamarine;
+    position: fixed;
+    margin-bottom: 10px;
+   
+}
+nav li a{
+    float:left;
+    text-decoration: none;
+    padding:10px;
+    background-color: black;
+    margin: 1px;
+    color:green;
+    
+}
+.navigation li a.active{
+   border-bottom: 5px solid  rgb(209, 24, 24) ;
+}
+nav li a:hover{
+    color:white;
+}
+.section{
+    border:1px solid rgb(209, 39, 39);
+    min-height:500px;
+    margin:5px;
+    padding-left:10px;
+    padding-right:10px;
+    
+}
+.container{
+    max-width: 1040px;
+    margin: 0 auto;
+    border: 2px black solid;
+}
+.clear{
+    clear:both;
+}
+img{
+    float:right;
+    margin:5px;
+    box-shadow: 5px 5px 10px black;
+    width:150px;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+footer div{
+    display: inline-block;
+}
+.footer .div1{
+    width:66%;
+    text-align: center;
+}
+.footer .div2{
+    width:33%;
+}
+.div2 ul{
+    list-style: none;
+}
+.fac{
+    background: #3B5998;
+    color: white;
+}
